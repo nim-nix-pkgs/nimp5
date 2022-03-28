@@ -11,7 +11,6 @@
   inputs.src-nimp5-master.ref   = "refs/heads/master";
   inputs.src-nimp5-master.owner = "Foldover";
   inputs.src-nimp5-master.repo  = "nim-p5";
-  inputs.src-nimp5-master.dir   = "";
   inputs.src-nimp5-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
